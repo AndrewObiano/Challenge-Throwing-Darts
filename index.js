@@ -26,16 +26,7 @@ function scoreCalculator(arr) {
   ) {
     finalScore += 100;
   }
-
-  console.log(arr);
-  console.log(finalScore);
   return finalScore;
 }
 
 module.exports = scoreCalculator;
-
-let testArr1 = [1, 5, 11];
-let testArr2 = [15, 20, 30];
-let testArr3 = [];
-let testArr4 = [1, 2, 1, 4, 4, 2];
-scoreCalculator(testArr4);
